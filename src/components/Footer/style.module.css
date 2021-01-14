@@ -1,0 +1,45 @@
+.footer{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    color: gray;
+    font-size: 15px;
+    font-family: Helvetica;
+}
+.filters{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+.filters button:hover{
+    transition: border-color 0.2s ease;
+    border-color: rgba(175, 47, 47, 0.1);
+}
+.filters button.selected{
+    transition: border-color 0.2s ease;
+    border-color: rgba(175, 47, 47, 0.2);
+}
+.footer button{
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    background: transparent;
+    border: 1;
+    border-radius: 2px;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.items{
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 23px;
+}
+.clearButton:hover{
+    text-decoration: underline;
+}

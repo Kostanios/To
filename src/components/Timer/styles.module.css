@@ -1,0 +1,13 @@
+.timerContainer{
+    display: flex;
+    align-items: center;
+}
+.timer{
+    height: min-content;
+    color: #4d4d4d;
+    font-family: Helvetica;
+    word-break: break-all;
+    font-weight: 400;
+    transition: color, text-decoration 0.4s;
+    line-height: 1.2;
+}
